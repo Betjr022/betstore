@@ -1,80 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bet's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bet's Web</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 <body>
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#order">Order Jokian</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About Me</a>
+      <a href="#order" class="nav-link">Order Jokian</a>
+      <a href="#contact" class="nav-link">Contact Me</a>
     </nav>
+  </header>
 
-    <!-- Home Section -->
-    <section id="home" class="section">
-        <div class="home-content">
-            <div class="text-content">
-                <h1>Welcome to Bet's Website</h1>
-                <p>
-                    Hi, I'm Bet! I'm here to help with your tasks and assignments. Whether you're looking for a personal assistant, a tutor, or someone to manage your small projects, I'm the person for the job.
-                    <br><br>
-                    You can rely on me to get things done efficiently and with a professional touch. Let me handle the hard work while you relax and focus on other important things.
-                    <br><br>
-                    Feel free to browse my services, learn more about me, and contact me directly through my social media links.
-                </p>
-                <div class="social-media">
-                    <a href="https://tiktok.com/@your_tiktok" target="_blank">
-                        <img src="tiktok-icon.png" alt="TikTok Icon" class="social-icon">
-                    </a>
-                    <a href="https://instagram.com/your_instagram" target="_blank">
-                        <img src="instagram-icon.png" alt="Instagram Icon" class="social-icon">
-                    </a>
-                    <a href="https://t.me/your_telegram" target="_blank">
-                        <img src="telegram-icon.png" alt="Telegram Icon" class="social-icon">
-                    </a>
-                </div>
-            </div>
-            <div class="image-content">
-                <img src="your-photo.jpg" alt="Bet's Photo" class="profile-photo">
-            </div>
-        </div>
-    </section>
-    
-    <!-- About Me Section -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>Hi! I'm Bet, a passionate individual who loves helping others with their tasks and delivering top-notch services.</p>
-    </section>
+  <section id="home" class="section home">
+    <div class="home-content">
+      <h1>Welcome to <span class="highlight">Bet's Store</span></h1>
+      <p>I help you focus on what matters by handling your tasks.</p>
+      <p class="typing-text">Relax, focus, and let me handle your work.</p>
+    </div>
+    <div class="home-image">
+      <img src="profile.jpg" alt="Your Image" class="profile-image">
+    </div>
+  </section>
 
-    <!-- Order Jokian Section -->
-    <section id="order" class="section">
-        <h2>Order Jokian</h2>
-        <p>Need help with your assignments or tasks? I’ve got your back!</p>
-        <button class="order-btn">Place an Order</button>
-    </section>
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Bet, passionate about helping others with their assignments and delivering high-quality results. Let’s make things easier together!</p>
+  </section>
 
-    <!-- Contact Me Section -->
-    <section id="contact" class="section">
-        <h2>Contact Me</h2>
-        <div class="social-media">
-            <a href="https://tiktok.com/@your_tiktok" target="_blank">
-                <img src="tiktok-icon.png" alt="TikTok Icon" class="social-icon">
-            </a>
-            <a href="https://instagram.com/your_instagram" target="_blank">
-                <img src="instagram-icon.png" alt="Instagram Icon" class="social-icon">
-            </a>
-            <a href="https://t.me/your_telegram" target="_blank">
-                <img src="telegram-icon.png" alt="Telegram Icon" class="social-icon">
-            </a>
-        </div>
-    </section>
+  <section id="order" class="section order">
+    <h2>Order Jokian</h2>
+    <p>Need help with assignments or tasks? I’ve got your back! Browse my services to find what you need.</p>
+    <button class="btn">Shop Now</button>
+  </section>
 
-    <script src="script.js"></script>
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <div class="social-icons">
+      <a href="https://tiktok.com" target="_blank" class="social-link">
+        <img src="tiktok-icon.png" alt="Tiktok">
+      </a>
+      <a href="https://instagram.com" target="_blank" class="social-link">
+        <img src="instagram-icon.png" alt="Instagram">
+      </a>
+      <a href="https://telegram.org" target="_blank" class="social-link">
+        <img src="telegram-icon.png" alt="Telegram">
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Bet's Web. All rights reserved.</p>
+  </footer>
 </body>
 </html>
