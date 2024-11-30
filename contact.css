@@ -1,0 +1,28 @@
+/* Styling for the contact page */
+#contact {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #45a049;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
